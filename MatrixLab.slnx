@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="MatrixConsole/MatrixConsole.csproj">
+    <BuildDependency Project="MatrixLibrary/MatrixLibrary.csproj" />
+  </Project>
+  <Project Path="MatrixLibrary.Tests/MatrixLibrary.Tests.csproj">
+    <BuildDependency Project="MatrixLibrary/MatrixLibrary.csproj" />
+  </Project>
+  <Project Path="MatrixLibrary/MatrixLibrary.csproj" />
+</Solution>
